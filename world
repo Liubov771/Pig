@@ -1,0 +1,11 @@
+def calculate_total_pigs(pigs_per_ha, total_land_area):
+    return int(pigs_per_ha * total_land_area)
+
+
+# Example parameters (you can adjust these values according to your needs)
+pigs_per_ha = 10  # Assumes an average of 10 pigs per hectare
+total_land_area = 150000000  # Assumes a total land area of 150 million hectares
+
+# Calculate the estimated number of pigs in the world
+total_pigs = calculate_total_pigs(pigs_per_ha, total_land_area)
+print("The estimated number of pigs in the world is:", total_pigs)
